@@ -1,14 +1,18 @@
-# My Chrome Extension
+# Chrome Extension Template Generator
 
 ## Description
-My Chrome Extension is a simple Chrome extension that demonstrates the basic structure and functionality of a Chrome extension. It includes a popup that displays a greeting message and a background script that runs in the background.
+The Chrome Extension Template Generator is a Python script that automatically creates the essential files and folder structure needed to start developing a Chrome extension. This tool simplifies the setup process, allowing developers to focus on building their extensions without worrying about the initial configuration.
 
 ## Features
-- Popup interface with a greeting message.
-- Background script for handling background tasks.
-- Basic styling using CSS.
-- Placeholder for an extension icon.
-
+- Generates a complete folder structure for a Chrome extension.
+- Creates essential files including:
+  - `manifest.json`: The metadata file for the extension.
+  - `background.js`: The background script for handling background tasks.
+  - `popup.html`: The HTML file for the extension's popup interface.
+  - `popup.js`: The JavaScript file for the popup functionality.
+  - `styles.css`: The CSS file for styling the popup.
+  - An `icons` folder for extension icons.
+  
 ## Getting Started
 
 ### Prerequisites
@@ -17,8 +21,8 @@ My Chrome Extension is a simple Chrome extension that demonstrates the basic str
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/my_chrome_extension.git
-   cd my_chrome_extension
+   git clone https://github.com/yourusername/chrome-extension-template-generator.git
+   cd chrome-extension-template-generator
    ```
 
 2. Run the Python script to create the extension structure:
@@ -29,7 +33,7 @@ My Chrome Extension is a simple Chrome extension that demonstrates the basic str
 ### Loading the Extension in Chrome
 1. Open Chrome and navigate to `chrome://extensions/`.
 2. Enable "Developer mode" in the top right corner.
-3. Click on "Load unpacked" and select the `my_chrome_extension` folder created by the script.
+3. Click on "Load unpacked" and select the folder created by the script.
 
 ### Usage
 - Click on the extension icon in the Chrome toolbar to open the popup.
@@ -58,4 +62,4 @@ To create an executable file for the Python script, you can use `PyInstaller`. F
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-- Inspired by the need for a simple Chrome extension template.
+- This project was created to streamline the development process for Chrome extensions and help developers get started quickly.
