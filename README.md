@@ -21,7 +21,7 @@ The Chrome Extension Template Generator is a Python script that automatically cr
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/chrome-extension-template-generator.git
+   git clone https://github.com/xs-es/chrome-extension-template-generator.git
    cd chrome-extension-template-generator
    ```
 
