@@ -22,7 +22,7 @@ The Chrome Extension Template Generator is a Python script that automatically cr
 1. Clone the repository:
    ```bash
    git clone https://github.com/xs-es/Xs-Chrome-Extenion-Generator.git
-   cd /v1.0/Xs-Chrome-Extenion-Generator
+   cd Xs-Chrome-Extenion-Generator/v1.0
    ```
 
 2. Run the Python script to create the extension structure:
